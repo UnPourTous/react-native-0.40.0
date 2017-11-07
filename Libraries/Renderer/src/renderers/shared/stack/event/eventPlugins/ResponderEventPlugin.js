@@ -572,6 +572,10 @@ var ResponderEventPlugin = {
     return extracted;
   },
 
+  resetTrackedTouchCount: function() {
+    trackedTouchCount = 0
+  },
+
   GlobalResponderHandler: null,
   GlobalInteractionHandler: null,
 
